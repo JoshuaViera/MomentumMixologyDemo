@@ -12,6 +12,16 @@ pod 'Firebase/Firestore'
 
 pod 'Firebase/Storage'
 
+--------------------------------------------------
+
+Steps to Complete:
+
+Install Cocoa Pods & import Firebase
+
+Set Storyboard Elements
+
+Create Associated Swift & Cocoa Touch Files 
+
 
 --------------------------------------------------
 
