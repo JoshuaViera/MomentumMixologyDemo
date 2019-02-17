@@ -11,5 +11,5 @@ pod 'Firebase/Storage'
 
 
 
--- I DO NOT HAVE LEGAL OWNERSHIP / PARTERNERSHIP / OR RIGHTS TO THE NAME/LOGO/OR PHOTOS ASSOCIATED WITH THIS COMPANY
--- This is for a practice project, if any complaints please feel free to contact me.
+#-- I DO NOT HAVE LEGAL OWNERSHIP / PARTERNERSHIP / OR RIGHTS TO THE NAME/LOGO/OR PHOTOS ASSOCIATED WITH THIS COMPANY
+#-- This is for a practice project, if any complaints please feel free to contact me.
