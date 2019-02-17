@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		390C3A3BF1D94C0AF08F2405 /* Pods_MomentumMixologyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DB61C6282DAE193AB7E086 /* Pods_MomentumMixologyDemo.framework */; };
+		E4930D272219B3220056BC46 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D262219B3220056BC46 /* HomeVC.swift */; };
+		E4930D292219B32F0056BC46 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D282219B32F0056BC46 /* MenuVC.swift */; };
+		E4930D2B2219B3380056BC46 /* SesonalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D2A2219B3380056BC46 /* SesonalVC.swift */; };
+		E4930D2D2219B3430056BC46 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D2C2219B3430056BC46 /* ServicesVC.swift */; };
+		E4930D2F2219B34C0056BC46 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D2E2219B34C0056BC46 /* AboutUsVC.swift */; };
+		E4930D352219B3FE0056BC46 /* ContactTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D342219B3FE0056BC46 /* ContactTableVC.swift */; };
+		E4930D3B2219B4720056BC46 /* BookUsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D3A2219B4720056BC46 /* BookUsTableVC.swift */; };
+		E4930D3D2219B4CC0056BC46 /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930D3C2219B4CC0056BC46 /* PhotoGalleryVC.swift */; };
 		E4A1418522185CEB007115E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1418422185CEB007115E2 /* AppDelegate.swift */; };
 		E4A1418722185CEB007115E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1418622185CEB007115E2 /* ViewController.swift */; };
 		E4A1418A22185CEB007115E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A1418822185CEB007115E2 /* Main.storyboard */; };
@@ -20,6 +28,14 @@
 		565D01C898C3AFAE02537F04 /* Pods-MomentumMixologyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentumMixologyDemo.debug.xcconfig"; path = "Target Support Files/Pods-MomentumMixologyDemo/Pods-MomentumMixologyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7CE20A69742D8D166AFA6E42 /* Pods-MomentumMixologyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentumMixologyDemo.release.xcconfig"; path = "Target Support Files/Pods-MomentumMixologyDemo/Pods-MomentumMixologyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C0DB61C6282DAE193AB7E086 /* Pods_MomentumMixologyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentumMixologyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4930D262219B3220056BC46 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E4930D282219B32F0056BC46 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		E4930D2A2219B3380056BC46 /* SesonalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesonalVC.swift; sourceTree = "<group>"; };
+		E4930D2C2219B3430056BC46 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		E4930D2E2219B34C0056BC46 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		E4930D342219B3FE0056BC46 /* ContactTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableVC.swift; sourceTree = "<group>"; };
+		E4930D3A2219B4720056BC46 /* BookUsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookUsTableVC.swift; sourceTree = "<group>"; };
+		E4930D3C2219B4CC0056BC46 /* PhotoGalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryVC.swift; sourceTree = "<group>"; };
 		E4A1418122185CEB007115E2 /* MomentumMixologyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentumMixologyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A1418422185CEB007115E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A1418622185CEB007115E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,8 +64,47 @@
 				565D01C898C3AFAE02537F04 /* Pods-MomentumMixologyDemo.debug.xcconfig */,
 				7CE20A69742D8D166AFA6E42 /* Pods-MomentumMixologyDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4930D222219B2BC0056BC46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4930D232219B2C80056BC46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4930D242219B2CE0056BC46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4930D3C2219B4CC0056BC46 /* PhotoGalleryVC.swift */,
+				E4930D3A2219B4720056BC46 /* BookUsTableVC.swift */,
+				E4A1418622185CEB007115E2 /* ViewController.swift */,
+				E4930D262219B3220056BC46 /* HomeVC.swift */,
+				E4930D282219B32F0056BC46 /* MenuVC.swift */,
+				E4930D2A2219B3380056BC46 /* SesonalVC.swift */,
+				E4930D2C2219B3430056BC46 /* ServicesVC.swift */,
+				E4930D2E2219B34C0056BC46 /* AboutUsVC.swift */,
+				E4930D342219B3FE0056BC46 /* ContactTableVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4930D252219B2D60056BC46 /* SupportingFIles */ = {
+			isa = PBXGroup;
+			children = (
+				E4A1418422185CEB007115E2 /* AppDelegate.swift */,
+				E4A1418B22185CEC007115E2 /* Assets.xcassets */,
+				E4A1418D22185CEC007115E2 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFIles;
 			sourceTree = "<group>";
 		};
 		E4A1417822185CEB007115E2 = {
@@ -73,11 +128,11 @@
 		E4A1418322185CEB007115E2 /* MomentumMixologyDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E4A1418422185CEB007115E2 /* AppDelegate.swift */,
-				E4A1418622185CEB007115E2 /* ViewController.swift */,
+				E4930D242219B2CE0056BC46 /* Controllers */,
+				E4930D232219B2C80056BC46 /* Views */,
+				E4930D222219B2BC0056BC46 /* Models */,
 				E4A1418822185CEB007115E2 /* Main.storyboard */,
-				E4A1418B22185CEC007115E2 /* Assets.xcassets */,
-				E4A1418D22185CEC007115E2 /* LaunchScreen.storyboard */,
+				E4930D252219B2D60056BC46 /* SupportingFIles */,
 				E4A1419022185CEC007115E2 /* Info.plist */,
 				E4A1419622185E94007115E2 /* GoogleService-Info.plist */,
 			);
@@ -227,7 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4930D352219B3FE0056BC46 /* ContactTableVC.swift in Sources */,
+				E4930D272219B3220056BC46 /* HomeVC.swift in Sources */,
+				E4930D3D2219B4CC0056BC46 /* PhotoGalleryVC.swift in Sources */,
+				E4930D2B2219B3380056BC46 /* SesonalVC.swift in Sources */,
+				E4930D292219B32F0056BC46 /* MenuVC.swift in Sources */,
+				E4930D2F2219B34C0056BC46 /* AboutUsVC.swift in Sources */,
+				E4930D3B2219B4720056BC46 /* BookUsTableVC.swift in Sources */,
 				E4A1418722185CEB007115E2 /* ViewController.swift in Sources */,
+				E4930D2D2219B3430056BC46 /* ServicesVC.swift in Sources */,
 				E4A1418522185CEB007115E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
